@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tag My Picture v1.0</string>
+    <string name="permission_rationale">"Storage permission is needed for fetching images"</string>
+    <string name="reset">Reset App</string>
+    <string name="title_activity_tag_gallery">Tag My Picture</string>
+    <string name="title_activity_image_view_flipper">Full Screen View</string>
+    <string name="delete">Delete</string>
+    <string name="rotate">Rotate</string>
+    <string name="share">Share</string>
+    <string name="use_as">Use As</string>
+    <string name="title_activity_tag_image_grid">Tagged Pictures</string>
+    <string name="title_activity_about">About</string>
+    <string name="about">
+        Tag My Picture v1.0 \n\n
+        Authors: \n
+        Allen Mathew - allenmathew.is@gmail.com\n
+        Abhilasha Gadekar - abhi@gmail.com
+    </string>
+    <string name="PleaseRate">
+        Please Rate the app by clicking on the star
+    </string>
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/ShareButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/fab_margin"
+                        android:clickable="true"
+                        android:label="@string/share"
+                        android:visibility="visible"
+                        app:backgroundTint="#904caf50"
+                        app:elevation="10dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@android:drawable/ic_menu_share" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/UseAsButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_margin="@dimen/fab_margin"
+                        android:clickable="true"
+                        android:label="@string/use_as"
+                        android:visibility="visible"
+                        app:backgroundTint="#901565c0"
+                        app:elevation="10dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@drawable/setas" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/DeleteButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/fab_margin"
+                        android:clickable="true"
+                        android:label="@string/delete"
+                        android:visibility="visible"
+                        app:backgroundTint="#90BB2A3C"
+                        app:elevation="10dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@drawable/icon_delete" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/RotateButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/fab_margin"
+                        android:clickable="true"
+                        android:label="@string/rotate"
+                        android:visibility="visible"
+                        app:backgroundTint="@color/rotateBG"
+                        app:elevation="10dp"
+                        app:fabSize="mini"
+                        app:srcCompat="@android:drawable/ic_menu_rotate" />
+                </FrameLayout>
+            </android.support.v7.widget.LinearLayoutCompat>
+        </FrameLayout>
+</FrameLayout>
