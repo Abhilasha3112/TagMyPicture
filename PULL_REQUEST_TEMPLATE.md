@@ -1,0 +1,4 @@
+- [ ] Added new user and DRQS bucket to `prefixes.json`
+- Tenancy (webops jaas folder name of the application/job which is going to use the credentials)* = ___________
+- [ ] Do you require `Credential_ID`?
+- [ ] Do you require `AWS_ACCESS_KEY_ID`/`SECRET_ACCESS_KEY`?
